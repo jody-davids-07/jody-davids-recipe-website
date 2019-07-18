@@ -1,0 +1,44 @@
+.navbar-brand {
+	font-family:'Permanent Marker', cursive;
+	font-size: 32px;
+    margin-right:50px;
+    
+}
+
+
+.container {
+	margin: 80px;
+}
+
+
+body {
+	background-color: #42c264;
+	background-image: -webkit-linear-gradient(red,green);
+	background-image:-chrome-linear-gradient(red,green);
+	background-image:-moz-linear-gradient(red,green);
+	background-image:-o-linear-gradient(red,green);
+	background-image:-ms-linear-gradient(red,green);
+	background-image:linear-gradient(red,green);
+
+}
+
+.intro{
+	float:right;
+	width:60%;
+
+}
+
+#mainPic{
+	float:left;
+	width:35%;
+}
+
+table, th, td {
+	border: 1px solid black;
+	
+  }
+
+.lead {
+	padding: 30px;
+	margin: 30px;
+}
