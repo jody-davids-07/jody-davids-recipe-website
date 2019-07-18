@@ -5,20 +5,18 @@
     
 }
 
-
 .container {
 	margin: 80px;
 }
 
-
 body {
 	background-color: #42c264;
-	background-image: -webkit-linear-gradient(red,green);
-	background-image:-chrome-linear-gradient(red,green);
-	background-image:-moz-linear-gradient(red,green);
-	background-image:-o-linear-gradient(red,green);
-	background-image:-ms-linear-gradient(red,green);
-	background-image:linear-gradient(red,green);
+	background-image: -webkit-linear-gradient(gold,chocolate);
+	background-image:-chrome-linear-gradient(gold,chocolate);
+	background-image:-moz-linear-gradient(gold,chocolate);
+	background-image:-o-linear-gradient(gold,chocolate);
+	background-image:-ms-linear-gradient(gold,chocolate);
+	background-image:linear-gradient(gold,chocolate);
 
 }
 
@@ -31,6 +29,17 @@ body {
 #mainPic{
 	float:left;
 	width:35%;
+
+}
+
+.ingredients {
+	margin: 0;
+	padding: 0;
+	
+}
+
+ul {
+	list-style-type: none;
 }
 
 #nutritionPerServing{
@@ -38,14 +47,16 @@ body {
 	margin-top: 50px;
 
 }
+
 table, th, td{
 	border: 1px solid black;
 	
-  }
+}
 
 .lead {
 	padding: 30px;
 	margin: 30px;
+
 }
 
 #method {
@@ -53,4 +64,20 @@ table, th, td{
 	margin-top: 50px;
 	text-align: center;
 
+}
+
+@media only screen and (max-width: px) {
+	
+}	
+
+@media only screen and (max-width: px) {
+	
+}	
+
+@media only screen and (max-width: px) {
+	
+}
+
+@media only screen and (max-width: px) {
+	
 }
